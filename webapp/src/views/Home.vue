@@ -28,7 +28,7 @@ export default {
       loading: false,
       noMore: false,
       error: false,
-      errorMsg,
+      errorMsg: '',
     };
   },
   computed: {

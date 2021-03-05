@@ -41,9 +41,9 @@ export default {
       if (!this.noMore) {
         this.loading = true;
 
-        var date = new Date();
+        let date = new Date();
         date.setDate(date.getDate() - 30);
-        var beforToday = date.toISOString().split("T")[0];
+        let beforToday = date.toISOString().split("T")[0];
 
         await fetch(
           `https://api.github.com/search/repositories?q=created:>${beforToday}&sort=stars&order=desc&page=${this

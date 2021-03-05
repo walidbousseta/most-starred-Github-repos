@@ -5,8 +5,9 @@
       <h1>{{ name }}</h1>
       <p>{{ description }}</p>
       <div class="subinfo">
-        <span class="sep"><b>Likes:</b> {{ watchers_count }}</span>
-        <span class="sep"><b>Views:</b> {{ open_issues_count }}</span>
+        <!-- For more symbols check here : https://graphemica.com/ -->
+        <span class="sep"><b style="font-size: 20px;">&#9733;</b> {{ watchers_count }}</span>
+        <span class="sep"><b style="font-size: 20px;">&#128712;</b> {{ open_issues_count }}</span>
         <span>Submitted {{ getTimeInterval(created_at) }} days ago by {{owner.login}}</span>
       </div>
     </div>

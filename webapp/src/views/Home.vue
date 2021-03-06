@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <h1>The most starred Github repos created in the last 30 days</h1>
+    <h1 style="text-align: center; text-transform: capitalize;">The most starred Github repos created in the last 30 days</h1>
   </div>
   <div class="row">
     <Card v-for="item in items" :="item" :key="item.id" />

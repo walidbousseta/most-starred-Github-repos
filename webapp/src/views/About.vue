@@ -48,7 +48,7 @@
     </ul>
   </div>
 </template>
-<style>
+<style scoped>
 .about{
   margin: 50px auto;
   width: 70%;
